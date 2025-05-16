@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Simple Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #2196F3;
+      text-decoration: none;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #0b7dda;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Webpage</h1>
+    <p>This page demonstrates HTML, CSS, and JavaScript basics.</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I’m learning how to build web pages using front-end technologies.</p>
+  </section>
+
+  <section>
+    <h2>Useful Resources</h2>
+    <p>Visit <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> to learn more about web development.</p>
+  </section>
+
+  <section>
+    <h2>Click the Button</h2>
+    <button onclick="showAlert()">Click Me!</button>
+  </section>
+
+  <script>
+    function showAlert() {
+      alert("Hello! Thanks for clicking the button!");
+    }
+  </script>
+
+</body>
+</html>
